@@ -1,0 +1,19 @@
+# Core dependencies
+flask==2.3.3
+flask-cors==4.0.0
+python-dotenv==1.0.0
+gunicorn==21.2.0
+
+# LangChain and related - updated to latest versions
+langchain>=0.0.312
+langchain-community>=0.0.13
+langchain-openai>=0.0.2
+tiktoken>=0.5.1
+
+# Vector database
+chromadb>=0.4.18
+
+# Utilities
+requests==2.31.0
+beautifulsoup4==4.12.2
+urllib3==2.0.7

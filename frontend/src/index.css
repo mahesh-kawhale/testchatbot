@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Fira Code', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Additional global styles */
+.message-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.message-icon {
+  margin-right: 0.5rem;
+}
+
+.user-icon {
+  color: #3b82f6;
+}
+
+.assistant-icon {
+  color: #10b981;
+}
+
+.message-role {
+  font-weight: 600;
+}
+
+.message-content {
+  line-height: 1.6;
+}
+
+.message-content p {
+  margin-bottom: 0.75rem;
+}
+
+.message-content p:last-child {
+  margin-bottom: 0;
+}
+
+.message-content a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.message-content a:hover {
+  text-decoration: underline;
+}
+
+.message-content ul, .message-content ol {
+  margin-left: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.message-content img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin: 0.75rem 0;
+}
+
+.message-content blockquote {
+  border-left: 3px solid #e2e8f0;
+  padding-left: 1rem;
+  color: #64748b;
+  margin: 0.75rem 0;
+}
+
+.message-content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0.75rem 0;
+}
+
+.message-content th, .message-content td {
+  border: 1px solid #e2e8f0;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.message-content th {
+  background-color: #f8fafc;
+  font-weight: 600;
+}
